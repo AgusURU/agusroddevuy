@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio profesional de Agustín Rodríguez - Desarrollador Web" />
+    <title>Agustín Rodríguez | Dev</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo">Agustín<span>.</span></a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-content">
+        <p class="hero-greeting">Hola, soy</p>
+        <h1 class="hero-name">Agustín Rodríguez</h1>
+        <h2 class="hero-title">Desarrollador <span class="highlight">Web</span></h2>
+        <p class="hero-description">
+          Apasionado por crear soluciones digitales innovadoras y experiencias de usuario memorables.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Ver proyectos</a>
+          <a href="#contact" class="btn btn-secondary">Contactarme</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/AgusURU" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-avatar">
+          <div class="avatar-ring"></div>
+          <div class="avatar-initials">AR</div>
+        </div>
+        <div class="floating-badge badge-1"><i class="fa-solid fa-code"></i> &lt;/&gt;</div>
+        <div class="floating-badge badge-2"><i class="fa-solid fa-star"></i></div>
+        <div class="floating-badge badge-3"><i class="fa-solid fa-rocket"></i></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="section-container">
+        <h2 class="section-title">Sobre <span class="highlight">mí</span></h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Soy un desarrollador web con pasión por construir aplicaciones modernas y escalables.
+              Me especializo en el desarrollo frontend y tengo experiencia en tecnologías backend,
+              lo que me permite trabajar de punta a punta en proyectos digitales.
+            </p>
+            <p>
+              Siempre estoy aprendiendo nuevas tecnologías y mejores prácticas para ofrecer
+              soluciones de alta calidad. Me encanta trabajar en equipo y enfrentar desafíos
+              técnicos que me permitan crecer profesionalmente.
+            </p>
+            <a href="#contact" class="btn btn-primary">Trabajemos juntos</a>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-number">2+</span>
+              <span class="stat-label">Años de experiencia</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Proyectos completados</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Tecnologías dominadas</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Compromiso</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="section-container">
+        <h2 class="section-title">Mis <span class="highlight">habilidades</span></h2>
+        <p class="section-subtitle">Tecnologías y herramientas con las que trabajo</p>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3><i class="fa-solid fa-display"></i> Frontend</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="fa-brands fa-html5"></i>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-item">
+                <i class="fa-brands fa-css3-alt"></i>
+                <span>CSS3</span>
+              </div>
+              <div class="skill-item">
+                <i class="fa-brands fa-js"></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-item">
+                <i class="fa-brands fa-react"></i>
+                <span>React</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fa-solid fa-server"></i> Backend</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="fa-brands fa-node-js"></i>
+                <span>Node.js</span>
+              </div>
+              <div class="skill-item">
+                <i class="fa-solid fa-database"></i>
+                <span>SQL</span>
+              </div>
+              <div class="skill-item">
+                <i class="fa-solid fa-leaf"></i>
+                <span>MongoDB</span>
+              </div>
+              <div class="skill-item">
+                <i class="fa-solid fa-bolt"></i>
+                <span>Express</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fa-solid fa-wrench"></i> Herramientas</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <i class="fa-brands fa-git-alt"></i>
+                <span>Git</span>
+              </div>
+              <div class="skill-item">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+              </div>
+              <div class="skill-item">
+                <i class="fa-brands fa-docker"></i>
+                <span>Docker</span>
+              </div>
+              <div class="skill-item">
+                <i class="fa-solid fa-terminal"></i>
+                <span>Linux</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="section-container">
+        <h2 class="section-title">Mis <span class="highlight">proyectos</span></h2>
+        <p class="section-subtitle">Algunos de los proyectos en los que he trabajado</p>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <div class="project-overlay">
+                <a href="#" class="btn btn-small" aria-label="Ver demo">
+                  <i class="fa-solid fa-eye"></i> Demo
+                </a>
+                <a href="https://github.com/AgusURU" class="btn btn-small btn-outline" aria-label="Ver código">
+                  <i class="fa-brands fa-github"></i> Código
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>E-Commerce App</h3>
+              <p>Aplicación de comercio electrónico con carrito de compras, autenticación de usuarios y pasarela de pagos.</p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fa-solid fa-list-check"></i>
+              </div>
+              <div class="project-overlay">
+                <a href="#" class="btn btn-small" aria-label="Ver demo">
+                  <i class="fa-solid fa-eye"></i> Demo
+                </a>
+                <a href="https://github.com/AgusURU" class="btn btn-small btn-outline" aria-label="Ver código">
+                  <i class="fa-brands fa-github"></i> Código
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Task Manager</h3>
+              <p>Aplicación de gestión de tareas con drag & drop, categorías y recordatorios. Interfaz intuitiva y responsiva.</p>
+              <div class="project-tech">
+                <span>JavaScript</span>
+                <span>CSS3</span>
+                <span>LocalStorage</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fa-solid fa-cloud-sun"></i>
+              </div>
+              <div class="project-overlay">
+                <a href="#" class="btn btn-small" aria-label="Ver demo">
+                  <i class="fa-solid fa-eye"></i> Demo
+                </a>
+                <a href="https://github.com/AgusURU" class="btn btn-small btn-outline" aria-label="Ver código">
+                  <i class="fa-brands fa-github"></i> Código
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Weather Dashboard</h3>
+              <p>Dashboard del clima con datos en tiempo real, pronóstico de 7 días y geolocalización automática.</p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>API REST</span>
+                <span>Chart.js</span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="projects-more">
+          <a href="https://github.com/AgusURU" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <i class="fa-brands fa-github"></i> Ver más en GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="section-container">
+        <h2 class="section-title">¡Hablemos!</h2>
+        <p class="section-subtitle">¿Tenés un proyecto en mente? Me encantaría escucharte.</p>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <h3>Email</h3>
+                <a href="mailto:agus@example.com">agus@example.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+              <div>
+                <h3>GitHub</h3>
+                <a href="https://github.com/AgusURU" target="_blank" rel="noopener noreferrer">AgusURU</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <h3>Ubicación</h3>
+                <p>Uruguay 🇺🇾</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="5" placeholder="¿En qué puedo ayudarte?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fa-solid fa-paper-plane"></i> Enviar mensaje
+            </button>
+            <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <p>Diseñado y desarrollado con <i class="fa-solid fa-heart"></i> por Agustín Rodríguez</p>
+        <p class="footer-copy">&copy; <span id="footer-year"></span> Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
